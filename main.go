@@ -1,0 +1,18 @@
+package main
+
+func main() {
+	cards := newDeck()
+
+	//cards.print()
+
+	// hand, remainingCards := deal(cards, 5)
+
+	// hand.print()
+	// remainingCards.print()
+
+	// greeting := "Hi there?"  //byte slice conversion
+	// fmt.Println([]byte(greeting))
+
+	//fmt.Println(cards.toString())
+	cards.saveToFile("my_cards")
+}
