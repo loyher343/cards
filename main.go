@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	cards := newDeck()
+	//cards := newDeck()
 
 	//cards.print()
 
@@ -14,5 +14,13 @@ func main() {
 	// fmt.Println([]byte(greeting))
 
 	//fmt.Println(cards.toString())
-	cards.saveToFile("my_cards")
+	//cards.saveToFile("my_cards")
+
+	// cards := newDeckFromFile("my_cards")
+	// cards.print()
+
+	cards := newDeck()
+	cards.shuffle()
+	cards.print()
+
 }
